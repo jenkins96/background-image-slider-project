@@ -6,6 +6,21 @@
     "contBcg-3",
     "contBcg-4"
   ];
+// 
+let index = 0
+const buttons = document.querySelectorAll("button");
+// For Each
+buttons.forEach((button) => {
+// Event Listener
+button.addEventListener("click", function(){
+    if(button.classList.contains("btn-left")){
+        index++;
+    } else if(button)
+})
+
+
+
+})
 
 
   

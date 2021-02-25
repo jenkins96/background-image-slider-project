@@ -17,7 +17,7 @@
     // Buttons forEach
     buttons.forEach(function(element){
     // Event listener for each element
-    element.addEventListener('click', function(e){
+    element.addEventListener('click', function(){
       if (element.classList.contains('btn-left')){ // Selecting left button
         index--
         if(index < 0){
